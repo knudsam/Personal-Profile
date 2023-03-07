@@ -73,8 +73,9 @@ border-radius: 200px ;
   list-style: none;
 }
 
-.list-container:hover {
-  font-size: 1.2em;
+.list-item:hover {
+ transform: scale(1.2);
+ z-index: 1;
 }
 
 
