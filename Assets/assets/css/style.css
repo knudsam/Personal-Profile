@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family:'shadows into light', sans-serif ;
+}
+
+.header {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'shadows into light';
+  background-color: darkseagreen;
+  padding: 30px;
+}
+
+.header img {
+border-radius: 200px ;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 16px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.list-container {
+  display: flex
+}
+
+.list-container li{
+  display: inline-flex;
+  margin-right: 10px;
+}
+
+.bubbles li{
+  display: inline-block;
+  background-color: #c8e6c9;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+.bubbles a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.bubbles a:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+.content {
+  background-color: lightyellow;
+}
+
+.about-me p {
+  background-color: lightyellow;
+  margin-left: 200px;
+  font-size: 24px;
+}
+
+.project-gallary li {
+  list-style: none;
+}
+
+.list-container:hover {
+  font-size: 1.2em;
+}
+
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color:darkseagreen;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  margin: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.social a:hover {
+  background-color: #fff;
+  color:darkseagreen;
+}
+
+.content-title img {
+max-width: 50%;
+border-radius: 200px;
+}
+
+.about-me h2 
+.project-gallary h2 {
+  margin-left: 0;
+  font-size: 30px;
+}
+
+.search-form {
+  float: right;
+  width: 300px;
+  height: 30px;
+  opacity: 0.8;
+  border: none;
+  font-size: 16px;
+  padding: 0;
+}
